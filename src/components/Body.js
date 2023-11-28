@@ -1,6 +1,7 @@
-import dp from '../assets/cross-light.png'
+import dp from '../assets/firstone.jpeg'
 import { Link } from 'react-router-dom';
 import resume from '../assets/Abhishek-java-Resume.pdf';
+
 const Body = () => {
     return (
       <div className="bodyContainer">

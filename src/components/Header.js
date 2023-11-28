@@ -23,7 +23,7 @@ const Header = ({menuExpanded, setMenuExpanded}) => {
                 <ToggleTheme theme={theme} setTheme={setTheme} />
                 <li><Link style={pathName==='/'?{color: '#0EA5E9'}:{}} className='links' to="/">Home</Link></li>
                 <li><Link style={pathName==='/about'?{color: '#0EA5E9'}:{}} className='links' to="/about">About</Link></li>
-                {/* <li><Link style={pathName==='/projects'?{color: '#0EA5E9'}:{}} className='links' to="/projects">Projects</Link></li> */}
+                 <li><Link style={pathName==='/projects'?{color: '#0EA5E9'}:{}} className='links' to="/projects">Projects</Link></li>
                 <li><Link style={pathName==='/contact'?{color: '#0EA5E9'}:{}} className='links' to="/contact">Contact</Link></li>
                 <li className='menuIcon'>{
                     menuExpanded? <img onClick={handleMenuIcon} src={theme==='light'?cross: crossLight} alt="" />  :

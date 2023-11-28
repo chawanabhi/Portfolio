@@ -52,10 +52,6 @@ const About = () => {
             name: 'Tailwind CSS'
         },
         {
-            url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg',
-            name: 'Jest'
-        },
-        {
             url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
             name: 'Git'
         },
