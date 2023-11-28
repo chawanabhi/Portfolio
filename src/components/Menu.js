@@ -9,7 +9,7 @@ const Menu = ({setMenuExpanded}) =>{
             <li><Link style={pathname==='/about'?{color: '#0EA5E9'}:{}} onClick={()=>setMenuExpanded(false)} className='links' to="/about">About</Link></li>
             <li><Link style={pathname==='/projects'?{color: '#0EA5E9'}:{}} onClick={()=>setMenuExpanded(false)} className='links' to="/projects">Projects</Link></li>
             <li><Link style={pathname==='/contact'?{color: '#0EA5E9'}:{}} onClick={()=>setMenuExpanded(false)} className='links' to="/contact">Contact</Link></li>
-            <li className="secondary-btn"><Link style={{color:'inherit', textDecoration: 'none'}} to="/contact">Connect</Link></li>
+     
             <li><div className='horizontalLine'></div></li>
         </nav>
     );
